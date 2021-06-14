@@ -2,7 +2,7 @@
 // manipulators help in formatting the code for better display 
 // two types of manipulators: endl & setw
 // endl skips to next line included in iostream
-// setw setd the field width; included in iomanip
+// setw sets the field width; included in iomanip
 
 #include<iostream>
 #include<iomanip>
