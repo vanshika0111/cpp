@@ -9,3 +9,13 @@
       again goes for loop check until the condition stops 
       satisfying.
 */
+
+/*  1. if else statement
+    2. if else ladder
+    3. switch-Case
+    4. for loop
+    5. while loop
+    6. do-While loop
+*/
+
+/*  Break & Continue statements  */
