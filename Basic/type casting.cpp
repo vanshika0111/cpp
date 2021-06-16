@@ -12,7 +12,7 @@ int main()
 
 	cout<<"The value of a is "<<(int)b<<endl;
 	cout<<"The value of a is "<<int(b)<<endl;  
-	int c = int(b)<<endl;
+	int c = int(b);
 	cout<<"The value of c is "<<c<<endl;
 
 	cout<<"The expression is "<< a+b<<endl;

@@ -35,7 +35,7 @@ int main()
 	cout<<"The value of c is "<< setw(4) << c << endl;
 	cout<<"SETPRECISION MANIPULATOR" << endl;
 	cout<< setprecision(5) << 123.456 << endl;
-	cout.self(ios::fixed) << endl;   // this is an ios flag
+	cout.setf(ios::fixed);   // this is an ios flag
         cout<< setprecision(5) << 12.345678 << endl;
 	return 0;
 }
