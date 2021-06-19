@@ -1,3 +1,5 @@
+// program to illustrate the concept of constructor
+
 #include<iostream>
 
 using namespace std;
