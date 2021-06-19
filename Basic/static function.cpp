@@ -35,4 +35,5 @@ int main()
     obj2.show();  // this will give a=9 and b=10
     A::display(); // display function is used to give b's value i.e., 10
     obj.show();   // again case 1 i.e., a=3 and b=10
+    
 }
