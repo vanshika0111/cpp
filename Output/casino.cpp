@@ -14,6 +14,8 @@ void rules()
 
 }
 
+
+
 void rules();
 int main()
 {
