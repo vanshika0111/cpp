@@ -52,14 +52,37 @@ void balance_bid()
     cout<<"Enter amount to bid: Rs. " << endl;
     cin>> bid_amount;
     cout<<endl;
-    if(bid_amount > balance)
+    do
     {
-        cout<<"You can't bid more than your balance. " << endl;
-        cout<<"Try playing again!" << endl;
-    }
-    else
-    {
-        GameTemplate();
+        do
+        {
+            if (bid_amount > balance)
+            {
+                cout<<"You can't bid more than your balance. " << endl;
+                cout<<"Try playing again!" << endl;
+                cout<<"Enter your bid amount again: " << endl;
+                cin>>bid_amount;
+                cout<< endl;
+                //GameTemplate();
+            }
+        } while(bid_amount > balance);
+
+        do
+        {
+            if (bid_amount % 10 != 0)
+            {
+                cout<<"Please enter a multiple of 10 as your bid amount." << endl;
+                cout<<"Try bidding again!" << endl;
+                cout<<"Enter your bid amount again: " << endl;
+                cin>>bid_amount;
+                cout<< endl;
+                //GameTemplate();
+            }
+        } while(bid_amount % 10 != 0);
+
+        
+    } while ( (bid_amount > balance) || (bid_amount % 10 != 0) );
+    GameTemplate();
         // if (bid_amount == balance)
         // {
         //     cout<< "Be careful! you are bidding all of your deposit." << endl;
@@ -75,7 +98,7 @@ void balance_bid()
         //         game();
         //     }
         // }
-    }
+    
 }
 
 void GameTemplate()
@@ -83,51 +106,20 @@ void GameTemplate()
     cout<< "Hello " << PlayerName << "!" << endl;
     cout<< "Your balance is Rs. " << balance << endl;
     cout<< "Your bidding amount is Rs. " << bid_amount << endl;
+    balance -= bid_amount;
+    cout<< "Now your balance is Rs. " << balance << endl;
     cout<< "Now let's begin." << endl;
     GameLogic();
 }
 
 void GameLogic()
 {
-    int guess, randomNumber;
-    srand(time(0));
-    randomNumber = (rand() % 100) + 1;
-    cout<< "Guess your first number between 1 to 100: " << endl;
-    cin >> guess;
-    cout<< endl;
-    
-    if(guess > randomNumber)
-    {
-        step_loss();
-        cout<< "Guess a lower number again: " ;
-        cin>> guess;
-        cout<< endl;
-    }
-    else if(guess < randomNumber)
-    {
-        step_loss();
-        cout<< "Guess a higher nnumber again: ";
-        cin >> guess;
-        cout<< endl;
-    }
-    else if(bid_amount <= 1)
-    {
-        cout<< "Your bidding amount vanished, " << PlayerName << "." << endl;
-        balance -= bid_amount;
-        cout<< "Now your balance is Rs. " << balance << endl;
-    }
-    else
-    {
-        cout<< "Congrats " << PlayerName << ", You won!" << endl;
-        balance += bid_amount * 20;
-        cout<< "You have a total balance of Rs. " << balance << endl;
-    }
-
+    cout << "done" << endl;
 }
 
 void step_loss()
 {
-    bid_amount -= 1;
+    
     cout<< "Ooppss! You just lost a penny from your bid amount. " << endl;
     cout<< "Now you have Rs. " << bid_amount << endl;
 }
