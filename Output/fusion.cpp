@@ -28,6 +28,7 @@ int main()
 }
 
 void intro()
+// this function takes player's name
 {
     cout << "------LETS GET STARTED WITH CASINO------" << endl;
     cout << "Enter player's name: " << endl;
@@ -36,6 +37,7 @@ void intro()
 }
 
 void rules()
+// function to declare the rules of the game
 {
     cout<< "=======CASINO GAME RULES=========" << endl;
     cout << " Choose a number between 1 to 10" << endl;
@@ -44,6 +46,11 @@ void rules()
 }
 
 void balance_bid()
+// function to let user enter the balance and bid amount
+// checks two conditions:
+// 1. bid amount < balance
+// 2. bid amount is multiple of 10
+// then control goes to game template
 {
     char choice;
     cout << "Enter your balance: Rs. ";
@@ -89,7 +96,7 @@ void balance_bid()
         //     cout<< "Do you want to continue? Y/N? " << endl;
         //     cin>> choice;
         //     cout<< endl;
-        //     if(choice == 'n' || 'N')
+        //     if(choice == 'y' || 'Y')
         //     {
         //         cout<< "Try bidding agian." << endl;
         //     }
@@ -102,6 +109,7 @@ void balance_bid()
 }
 
 void GameTemplate()
+// function to 
 {
     cout<< "Hello " << PlayerName << "!" << endl;
     cout<< "Your balance is Rs. " << balance << endl;
