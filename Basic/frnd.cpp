@@ -15,7 +15,7 @@ class Box
 int printLength(Box b)
 {
     b.length +=10;     // case 1
-    //b.length = 10;      // case 2
+    //b.length = 10;   // case 2
     return b.length;
 }
 
