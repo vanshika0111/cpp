@@ -44,9 +44,13 @@ void rules()
 // function to declare the rules of the game
 {
     cout<< "=======CASINO GAME RULES=========" << endl;
-    cout << " Choose a number between 1 to 10" << endl;
-    cout << " Winner gets 10 times of the bid money" << endl;
-    cout << " If lost the chance, you lose the amount you bet" << endl;
+    cout << "\t1. First, you need to enter your balance and then your bidding amount." << endl;
+    cout << "\t2. Then you have to guess a number between 1 to 100." << endl;
+    cout << "\t3. You will have a total of 10 chances to guess the correct number." << endl;
+    cout << "\t4. If you guess the correct number, you win 20 times the bid amount." << endl;
+    cout << "\t5. For each wrong guess, you lose (bid amount / 10)Rs per wrong guess of the amount you bet." << endl;
+    cout << "\t6. Once you get finished with all your chances, you will lose twice the bid amount from your total balance." << endl;
+
 }
 
 void balance_bid()
