@@ -1,3 +1,5 @@
+// completed on 27 june 2021
+
 // header files declaration
 #include<iostream>
 #include<stdlib.h>
@@ -35,15 +37,16 @@ void intro()
 // this function takes player's name
 {
     cout << "------LETS GET STARTED WITH CASINO------" << endl;
+
     cout << "Enter player's name: " << endl;
-    cin>> PlayerName;
-    cout<< endl;
+    cin >> PlayerName;
+    cout << endl;
 }
 
 void rules()
 // function to declare the rules of the game
 {
-    cout<< "=======CASINO GAME RULES=========" << endl;
+    cout << "=======CASINO GAME RULES=========" << endl;
     cout << "\t1. First, you need to enter your balance and then your bidding amount." << endl;
     cout << "\t2. Then you have to guess a number between 1 to 100." << endl;
     cout << "\t3. You will have a total of 10 chances to guess the correct number." << endl;
@@ -60,13 +63,16 @@ void balance_bid()
 // 2. bid amount is multiple of 10
 // then control goes to game template
 {
-    char choice;
+    //char choice;
+
     cout << "Enter your balance: Rs. ";
     cin >> balance;
     cout<< endl;
+
     cout<<"Enter amount to bid: Rs. " << endl;
     cin>> bid_amount;
     cout<<endl;
+
     do
     {
         do
@@ -99,6 +105,7 @@ void balance_bid()
     } while ( (bid_amount > balance) || (bid_amount % 10 != 0) );
 
     GameTemplate();
+
         // if (bid_amount == balance)
         // {
         //     cout<< "Be careful! you are bidding all of your deposit." << endl;
@@ -119,10 +126,12 @@ void balance_bid()
 
 void GameTemplate()
 // function to display the current balance and bidding amount
+// then control goes to Random_Guess
 {
     cout<< "Hello " << PlayerName << "!" << endl;
     cout<< "Your balance is Rs. " << balance << endl;
     cout<< "Your bidding amount is Rs. " << bid_amount << endl;
+
     balance -= bid_amount;
     cout<< "Now your balance is Rs. " << balance << endl;
     cout<< "Now let's begin." << endl;
@@ -132,8 +141,10 @@ void GameTemplate()
 }
 
 void Random_Guess()
-// function to generate a random number &
+// firstly, it declares the loss per wrong guess
+// then it generates a random number
 // ask user for first guess
+// control goes to GameLogic
 {
     step_loss();
 
@@ -158,6 +169,7 @@ void step_loss()
 
 void GameLogic()
 // function containing the logic of the game
+// to end the game, control goes to thanks
 {
     do
     {
