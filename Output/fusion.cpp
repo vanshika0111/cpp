@@ -48,7 +48,7 @@ void rules()
     cout << "\t2. Then you have to guess a number between 1 to 100." << endl;
     cout << "\t3. You will have a total of 10 chances to guess the correct number." << endl;
     cout << "\t4. If you guess the correct number, you win 20 times the bid amount." << endl;
-    cout << "\t5. For each wrong guess, you lose (bid amount / 10)Rs per wrong guess of the amount you bet." << endl;
+    cout << "\t5. For each wrong guess, you lose (bid amount/10)Rs per wrong guess of the amount you bet." << endl;
     cout << "\t6. Once you get finished with all your chances, you will lose twice the bid amount from your total balance." << endl;
 
 }
