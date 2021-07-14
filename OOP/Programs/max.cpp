@@ -22,6 +22,7 @@ class Greatest
     //     }
 
     // }
+
     void final(int x, int y, int z)
     {
         if (x>y)
@@ -53,9 +54,13 @@ class Greatest
 
 };
 
+// mian function
 int main()
 {
+    // object declaration
     Greatest obj1;
+
+    // function call
     obj1.final(3,6,2);
 
     return 0;
