@@ -55,7 +55,7 @@ class Greatest
 };
 
 // mian function
-int main()
+int main() 
 {
     // object declaration
     Greatest obj1;
