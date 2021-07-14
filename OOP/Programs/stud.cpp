@@ -5,6 +5,7 @@
 #include<stdlib.h>
 using namespace std;
 
+// constant declaration
 const int Obj=3;
 // const int size=3;
 
@@ -16,6 +17,8 @@ class Student
     float marks;
 
     public:
+
+    // function to take details from user
     void get_value(void)
     {
         char ch;
@@ -31,9 +34,11 @@ class Student
         cin >> marks;
         cout << endl;
     }
+
     void display(void);
 };
 
+// function to display the details
 void Student :: display(void)
 {
     cout << endl;
@@ -42,8 +47,10 @@ void Student :: display(void)
     cout << "Total marks: " << marks << endl;
 }
 
+// object declaration
 Student fy[Obj];
 
+// main function
 int main()
 {
     // int i=0;
