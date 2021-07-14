@@ -8,7 +8,7 @@ using namespace std;
 const int Obj=3;
 // const int size=3;
 
-class Student
+class Student 
 {
     int roll_number;
     char name[21];
