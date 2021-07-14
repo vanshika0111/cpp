@@ -1,15 +1,19 @@
+// program to create a student class, read 
+// and print 3 student's details (Name, Number, total marks)
+
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
 
 const int Obj=3;
-const int size=3;
+// const int size=3;
 
 class Student
 {
     int roll_number;
     char name[21];
-    float marks[size];
+    // float marks[size];
+    float marks;
 
     public:
     void get_value(void)
@@ -24,7 +28,7 @@ class Student
         cin.getline(name,21);
         // cout << endl;
         cout << "\n" << "Total marks: ";
-        cin >> marks[size];
+        cin >> marks;
         cout << endl;
     }
     void display(void);
