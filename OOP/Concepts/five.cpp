@@ -1,4 +1,4 @@
-// program to show access to public, private and protected using inheritance
+// program to show access to public, private (and protected) using inheritance
 
 #include<iostream>
 #include<stdlib.h>
@@ -11,11 +11,14 @@ class Employee
     public:
     int id; 
     float salary;
+
     Employee(int inpid)
     {
         id = inpid;
         salary = 34.0;
     } 
+
+    // default contructor to initialize variables
     Employee(){}
 };
 
@@ -27,12 +30,13 @@ class Employee
 //     {
 //         id = inpid;
 //     }
+// 
 //     int languageCode = 9;
+// 
 //     void getData()
 //     {
 //         cout << id << endl;
 //     }
-  
 // };
 
 // derived class: public
@@ -40,6 +44,7 @@ class Programmer : public Employee
 {
     public:
     int languageCode;
+
     Programmer(int inpid)
     {
         id = inpid;
@@ -50,10 +55,7 @@ class Programmer : public Employee
     {
         cout << id << endl;
     }
-  
 };
-
-
 
 // // main function for private derived class
 // int main()
@@ -79,6 +81,7 @@ int main()
     cout << skillF.languageCode << endl;
     skillF.getData();
     cout << skillF.id << endl;
+    // this will not give error as now id is public
     
     return 0;
 }
