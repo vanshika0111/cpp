@@ -1,3 +1,6 @@
+// design a class with all arithematic operations
+// use them in main function
+
 #include<iostream>
 #include<stdlib.h>
 using namespace std;

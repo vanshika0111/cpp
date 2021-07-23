@@ -1,3 +1,6 @@
+// create a class student with student name and age as data members
+// define a function to read and display the data members
+
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
@@ -46,6 +49,6 @@ int main()
     {
         fy[i].display();
     }
-    
+
     return 0;
 }
