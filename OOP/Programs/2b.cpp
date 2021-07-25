@@ -9,8 +9,9 @@ class Triangle
 {
     private:
         float base, height, area;
+
     public:
-        void get_data_tri(void)
+        float get_data_tri(void)
         {
             cout << "Enter base: " ;
             cin >> base;
@@ -18,6 +19,7 @@ class Triangle
             cin >> height;
             cout << endl;
         }
+
         float area_triangle(void)
         {
             cout << "Area of triangle is " << 0.5*base*height << endl;
@@ -29,13 +31,15 @@ class Sqaure
 {
     private:
         float side, area;
+
     public:
-        void get_data_square(void)
+        float get_data_square(void)
         {
             cout << "Enter side: ";
             cin >> side;
             cout << endl;
         }
+
         float area_sqaure(void)
         {
             cout << "Area of square is " << side*side << endl;
@@ -47,16 +51,18 @@ class Circle
 {
     private:
         float radius, area;
+
     public:
-        void get_data_cir(void)
+        float get_data_cir(void)
         {
             cout << "Enter radius: ";
             cin >> radius;
             cout << endl;
         }
+
         float area_circle(void)
         {
-            cout << "Area of circle is " << 3.14*radius*radius;
+            cout << "Area of circle is " << 3.14*radius*radius << endl;
             // return 3.14*radius*radius;
         }
 };
@@ -69,8 +75,10 @@ int main()
 
     tri.get_data_tri();
     tri.area_triangle();
+
     sq.get_data_square();
     sq.area_sqaure();
+    
     cir.get_data_cir();
     cir.area_circle();
     
