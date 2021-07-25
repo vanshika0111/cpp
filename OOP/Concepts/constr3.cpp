@@ -1,5 +1,5 @@
 // constructor
-// defaukt constructor
+// defaukt constructor 
 
 /*
 --> it is a special member function.
