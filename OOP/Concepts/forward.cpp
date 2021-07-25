@@ -1,3 +1,6 @@
+// importance of forward declaration
+// declaring an entire class as friend
+
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
