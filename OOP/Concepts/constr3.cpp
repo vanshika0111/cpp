@@ -34,7 +34,7 @@ class Complex
         }
 };
 
-Complex :: Complex(void)
+Complex :: Complex(void)// ---> default contructor (no arguments)
 {
     a=10;
     b=8;
