@@ -46,6 +46,7 @@ Properties of friend function:
 6. cannot access the members directly by theur names  & need to access any member
   --> objectName.memberName --> invalid
 */
+
 Complex Sum(Complex o1, Complex o2)
 {
     Complex o3;
