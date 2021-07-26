@@ -56,8 +56,14 @@ void Derived :: display()
 int main()
 {
     Derived obj;
-    // obj.setData();
+    // obj.setData();  --> throws an error
     obj.process();
     obj.display();
     return 0;
 }
+
+/*
+obj.setData() throws an error as the derived class is private.
+thus, to access the setData(), use it in the derived class itself.
+here, setData() is called in the member function --> process()
+*/
