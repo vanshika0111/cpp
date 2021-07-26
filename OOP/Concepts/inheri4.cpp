@@ -36,6 +36,7 @@ int main()
 {
     Base b;
     Derived d;
+    
     // cout << d.a;  --> throws an error as private in base & derived class
     return 0;
 }
