@@ -53,6 +53,7 @@ void Derived :: display()
     cout << "Value of data 3 is " << data3 << endl;
 }
 
+// main function
 int main()
 {
     Derived obj;
