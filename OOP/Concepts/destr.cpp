@@ -20,12 +20,14 @@ class Number
             count++;
             cout << "Constructor is called for object number " << count << endl;
         }
+
         ~Number()
         {
             cout << "Destructor is called for object number " << count << endl;
             count--;
         }
 };
+
 int main()
 {
     cout << "Inside main function" << endl;
