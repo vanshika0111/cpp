@@ -11,12 +11,12 @@ class Number
     int a;
 
     public:
-        Number()          // default constructot
+        Number()               // default constructot
         {
             a=0;
         }
 
-        Number(int num)  // parametrized constructor
+        Number(int num)       // parametrized constructor
         {
             a=num;
         }
