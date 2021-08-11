@@ -1,4 +1,4 @@
-// program to show access to public, private (and protected) using inheritance
+// program to show access to public & private using inheritance
 
 #include<iostream>
 #include<stdlib.h>
