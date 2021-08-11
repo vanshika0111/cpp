@@ -9,7 +9,7 @@ class Complex
     private:
         int a,b;
     public:
-        Complex(int, int);    // default constructor
+        Complex(int, int);     // ----> default constructor
 
         void print(void)
         {
@@ -17,7 +17,7 @@ class Complex
         }
 };
 
-Complex :: Complex(int x, int y)// ---> parametrized contructor (two arguments)
+Complex :: Complex(int x, int y)     // ---> parametrized contructor (two arguments)
 {
     a=x;
     b=y;
