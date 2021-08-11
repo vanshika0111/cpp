@@ -12,4 +12,4 @@
 
 // 6. DYNAMIC BINDING: code which will execute is not known until the program runs
 
-// 7. MESSAGE PASSING: object message (information) call format
+// 7. MESSAGE PASSING: object message(information) call format
