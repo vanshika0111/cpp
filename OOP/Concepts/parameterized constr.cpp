@@ -9,7 +9,7 @@ class Complex
     private:
         int a,b;
     public:
-        Complex(int, int);     // ----> default constructor
+        Complex(int, int);    // ----> default constructor
 
         void print(void)
         {
