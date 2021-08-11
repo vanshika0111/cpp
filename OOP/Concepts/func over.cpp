@@ -1,8 +1,8 @@
 // program to illustrate function overloading
 
-// two or more functions having same name won't give any error
+// two or more functions having the same name won't give any error
 // compiler itslef checks the prototype, arguments and then returns the precise value
-// this is termed as function overloading
+// this is termed as <function overloading>
 
 #include<iostream>
 #include<stdlib.h>
