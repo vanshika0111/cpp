@@ -10,7 +10,7 @@ class A{
     A(int x, string y)
     {
         age = x;
-        name =y;
+        name = y;
     }
 };
 
@@ -23,5 +23,6 @@ int main()
     cout<<"Name is : " <<obj.name<<endl;
     cout<<"Age is : " <<obj2.age<<endl;
     cout<<"Name is : " <<obj2.name<<endl;
+
     return 0;
 }
