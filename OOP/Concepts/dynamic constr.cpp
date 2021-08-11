@@ -17,7 +17,7 @@ class BankDeposit
 
         BankDeposit(int p, int y, float r);     // r --> 0.04
 
-        BankDeposit(int p, int y, int r);     // r --> 40 %
+        BankDeposit(int p, int y, int r);     // r --> 40%
         // p --> principal
         // y --> years
         // r --> rate of interest
