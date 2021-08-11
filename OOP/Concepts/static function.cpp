@@ -7,6 +7,7 @@ using namespace std;
 class A{
     int a;
     static int b;
+
     public:
     A(int x, int y)
     {
