@@ -1,4 +1,4 @@
-// single inheritance -- > protected
+// single inheritance -- > protected specifier
 
 /*
 The protected variables are private only.
