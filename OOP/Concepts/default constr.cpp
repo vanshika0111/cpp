@@ -1,10 +1,10 @@
 // constructor
-// defaukt constructor 
+// default constructor 
 
 /*
 --> it is a special member function.
 --> it has same name as that of the class.
---> sutomatically invoked whenever an object is created
+--> automatically invoked whenever an object is created
 --> used to initialize the objects of its class
 --> it may/ may not require a return type
 */
