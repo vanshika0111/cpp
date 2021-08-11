@@ -17,7 +17,7 @@ public:
     void displayPrice(void);
 };
 
-void Shop ::setPrice(void)
+void Shop :: setPrice(void)
 {
     cout << "Enter ID of your item number " << counter + 1 << ":";
     cin >> ItemID[counter];
@@ -26,7 +26,7 @@ void Shop ::setPrice(void)
     counter++;
 }
 
-void Shop ::displayPrice(void)
+void Shop :: displayPrice(void)
 {
     for (int i = 0; i < counter; i++)
     {
