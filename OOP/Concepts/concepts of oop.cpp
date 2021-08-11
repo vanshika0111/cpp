@@ -1,8 +1,8 @@
-// notes of oop
+// notes & definitions of OOP
 
 // 1. CLASS: basic template for creating objects
 
-// 2. DATA ABSTRACTION: representing essential featutres without including the backgroud details 
+// 2. DATA ABSTRACTION: representing essential featutres without including the background details 
 
 // 3. ENCAPSULATION: wrapping up data and functions into single unit
 

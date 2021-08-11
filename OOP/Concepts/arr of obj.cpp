@@ -34,6 +34,7 @@ int main()
     // two.getID();               |  /
     // three.setID();             | /
     // three.getID();             |/
+	// thus, array of objects is created to improve visibility
 
     Employee obj[4];     // array of objects
     for(int i=0; i<4; i++)
