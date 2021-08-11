@@ -10,19 +10,19 @@ class Complex
         int x,y;
 
     public:
-        Complex(int a, int b)   // parametrized constructor
+        Complex(int a, int b)   // parametrized constructor (two arguments)
         {
             x=a;
             y=b;
         }
 
-        Complex(int a)   // parametrized constructor
+        Complex(int a)         // parametrized constructor (one argument)
         {
             x=a;
             y=0;
         }
 
-        Complex()   // default constructor
+        Complex()             // default constructor
         {
             x=0;
             y=0;
