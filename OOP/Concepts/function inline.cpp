@@ -18,7 +18,7 @@ int add(int x, int y)
 //     return x+y;
 // }
 
-// use inline function for small codes functions
+// use inline function for small codes functions ONLY
 
 
 int main()
@@ -26,6 +26,7 @@ int main()
     int x,y;
     cout<<"Enter the value of x and y: " << endl;
     cin>> x >> y;
+
     cout<<"The addition of x and y is: " << add(x,y) << endl;
     // cout<<"The addition of x and y is: " << add(x,y) << endl;
     // cout<<"The addition of x and y is: " << add(x,y) << endl;
@@ -36,5 +37,6 @@ int main()
     // cout<<"The addition of x and y is: " << add(x,y) << endl;
     // cout<<"The addition of x and y is: " << add(x,y) << endl;
     // cout<<"The addition of x and y is: " << add(x,y) << endl;
+
     return 0;
 }   
