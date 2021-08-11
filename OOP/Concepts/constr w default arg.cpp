@@ -26,11 +26,11 @@ void Simple :: display(void)
 
 int main()
 {
-    Simple s(4,6);
+    Simple s(4,6);    // --> object declaration
     // gives (4,6) as output
     s.display();
 
-    Simple s2(1);
+    Simple s2(1);     // --> object declaration
     // gives (1,3) as output
     s2.display();
 
