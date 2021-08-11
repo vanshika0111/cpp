@@ -20,6 +20,7 @@ class Calculator
         {
             return (a+b);
         }
+
         int SumRealComplex(Complex, Complex);
         int SumCompComplex(Complex, Complex);
         // here (Complex o1, Complex o2) throws an error
