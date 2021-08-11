@@ -60,6 +60,7 @@ class Result : public Exam
         }
 };
 
+// main function
 int main()
 {
     Result one;
