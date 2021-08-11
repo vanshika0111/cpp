@@ -51,6 +51,7 @@ Member functions:
     display() --> public
 */
 
+// main function
 int main()
 {
     Derived one;
