@@ -11,7 +11,7 @@ class Number
     int a;
 
     public:
-        Number()               // default constructot
+        Number()               // default constructor
         {
             a=0;
         }
