@@ -24,3 +24,37 @@ It represents an entity that can store data & has its interface through function
 
 The various concepts involved are **`class`**, **`object`**, **`dynamic binding`** & **`message passing`**.
 The four pillars of OOP are **`Data abstraction`**, **`Encapsulation`**, **`Inheritance`** & **`Polymorphism`**.
+
+![Alt Text](C:\Users\Admin\Desktop\coding world\cpp\ReadMe essentials\photo.jpg)
+
+### **ROADMAP**
+---
+In this repository, programs are added from basic C++ to OOP concepts programs. Also, notes are added of OOP concepts.
+The programs are also explained with the help of comments. Hope these will clear your concepts of OOP with C++.
+
+### **SUPPORT**
+---
+
+Everything added in this repository is correct to my best knowledge.
+Still if you come across any error(s), feel free to suggest the corrections on the mail address vanshikag0111@gmail.com .
+
+Every suggestion or opinion matters.
+
+### **FUTURE SCOPE**
+---
+
+Of course many more programs will be added as you know, *learning never stops*.
+
+### **CONTRIBUTION**
+---
+
+It would be glad enough if any of you will to contribute to this repository.
+It's open to contribution. 
+Clone this repository with the provivded url https://github.com/vanshika0111/cpp 
+or directly clone the repository with the command (gh repo clone vanshika0111/cpp).
+
+---
+---
+## <center> **HAPPY CODING :)** </center>
+
+
