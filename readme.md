@@ -24,8 +24,9 @@ It represents an entity that can store data & has its interface through function
 
 The various concepts involved are **`class`**, **`object`**, **`dynamic binding`** & **`message passing`**.
 The four pillars of OOP are **`Data abstraction`**, **`Encapsulation`**, **`Inheritance`** & **`Polymorphism`**.
+Below is a snapshot explaining the above mentioned highlighted topics.
 
-![Alt Text](C:\Users\Admin\Desktop\coding world\cpp\ReadMe essentials\photo.jpg)
+![Alt Text](https://github.com/vanshika0111/cpp/blob/master/ReadMe%20essentials/photo.jpg)
 
 ### **ROADMAP**
 ---
