@@ -19,6 +19,7 @@ int main()
             count++;
         }
     }
+    
     cout << "Numbers of spaces in the given string are " << count << endl;
 
     return 0;
