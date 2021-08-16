@@ -18,9 +18,9 @@ int main()
         if (ch >= 'a' && ch <= 'z')
         {
             char_count++;
-            cout.put(ch);
-            
+            cout.put(ch);  
         }
+        
         cin.get(ch);
     }
 
