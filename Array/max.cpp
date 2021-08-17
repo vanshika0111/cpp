@@ -1,4 +1,4 @@
-// program to find the largest element of an array
+// program to find the largest element of an array given by the user
 
 #include<iostream>
 #include<stdlib.h>
