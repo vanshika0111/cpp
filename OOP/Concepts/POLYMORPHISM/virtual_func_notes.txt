@@ -1,0 +1,6 @@
+Rules for virtual function:
+1. They cannot be static
+2. They are accessed by pointers
+3. Virtual functions can be a friend of another class
+4. Function in base may not be used
+5. If a virtual function defined in the base class, there's no neccessity of re-defining in derived class
