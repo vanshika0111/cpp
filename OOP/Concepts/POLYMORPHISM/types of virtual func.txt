@@ -1,0 +1,12 @@
+There are two types of virtualfunction:
+    1. Abstract virtual function
+    2. Pure virtual function
+
+PURE Virtual Function:
+    Syntax: virtual void display(void) = 0; --> do nothing function
+    It is used to make abstract virtual functions.
+
+ABSTRACT Class :
+    It cannot be used to create objects.
+    It is used so that further classes be inheritted from this abstract class.
+    It has at least one pure function.
