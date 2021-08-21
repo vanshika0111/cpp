@@ -50,6 +50,7 @@ int main()
         cout << "Person " << i+1 << ": " ;
         obj[i].BeforeSort();
     }
+
     
 
     return 0;
