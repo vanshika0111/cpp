@@ -7,7 +7,11 @@ class BaseClass
 {
     public:
         int var_base=1;
-        virtual void display(void)
+        void display(void)
+        {
+            cout << "1. Displaying base class" << endl;
+        }
+        virtual void show(void)
         {
             cout << "1. Displaying base class variable" << var_base << endl;
         }
@@ -22,11 +26,27 @@ class DerivedClass : public BaseClass
             cout << "2. Displaying base class variable" << var_base << endl;
             cout << "2. Displaying derived class variable" << var_derive << endl;
         }
+        void show (void)
+        {
+            cout << "2. Displaying derived class" << endl;
+        }
 };
 
 int main()
 {
-    BaseClass * base_class_pointer;
-    BaseClass obj_base;
-    DerivedClass obj_derive;
-    base_class_pointer = &obj_derive;
+    BaseClass B;
+    DerivedClass D;
+    BaseClass *bptr;
+
+    cout << "bptr points to base class" << endl;
+    bptr = &B;
+    bptr->display();     // calls base class
+    bptr->show();        // calls base class
+
+    cout << "bptr points to derived class" << endl;
+    bptr = &D;
+    bptr->display();     // calls base class
+    bptr->show();        // calls derived class
+
+    return 0;
+}
