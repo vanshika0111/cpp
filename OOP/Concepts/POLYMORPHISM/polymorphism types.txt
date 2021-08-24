@@ -1,0 +1,15 @@
+Polymorphism is the ability to express a message in more than one form.
+
+Example 1: operator "+":
+    - mathematically, 3 + 4 = 7
+    - in string, hello + bye = hellobye
+Example 2: operator *
+    - mathematically, 3 * 4 = 12
+    - in string, tall * 3 = tall tall tall
+
+There are two types of polymorphism:
+1. Compile time polymorphism OR Early Binding
+    - Function overloading
+    - Operator overloading
+2. Run time polymorphism
+    - Virtual Function
