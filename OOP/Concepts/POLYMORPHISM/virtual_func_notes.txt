@@ -1,6 +1,21 @@
 Rules for virtual function:
-    1. They cannot be static
-    2. They are accessed by pointers
-    3. Virtual functions can be a friend of another class
-    4. Function in base may not be used
-    5. If a virtual function defined in the base class, there's no neccessity of re-defining in derived class
+
+    1.  They cannot be static
+    2.  They are accessed by object pointers
+    3.  Virtual functions can be a friend of another class
+    4.  Function in base may not be used
+    5.  If a virtual function defined in the base class, there's no neccessity of re-defining in derived class
+    6.  They must be members of some class
+    7.  A virtual class must be defined, even though it may not be used
+    8.  There are no virtual constructor, but there can be virtual destructors
+    9.  The prototypes of the base class version of a virtual function & all the derived class versions must be identical.
+        If two functions with the same name have different prototypes, C++ considers them as overloaded functions,
+        & the virtual function mechanism is ignored.
+    10. While a base pointer can point to any type of the derived object, the reverse is not true.
+        That means, we can't use a pointer to a derived class to access an object of the base type.
+    11. When a base pointer points to a derived class, incrementing or decrementing it will not make it to point to the 
+        next object of the derived class. It is incremented or decremented only relative to its base type. 
+        Thus, we should not use this method to move the pointer to the next object.
+    12. If a virtual function is defined in the base class, it need not be necessarily redefined in the derived class.
+        In such cases, calls will invoke the base function.
+       
