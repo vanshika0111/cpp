@@ -1,0 +1,6 @@
+There are two methods to oepn a file in cpp 
+    1. using the constructor function of the stream class
+    2. using the function open()
+
+Constructor is used to open a file if a single file is used with a stream
+while open() function is used for working with multiple files, either consecutive or together.
