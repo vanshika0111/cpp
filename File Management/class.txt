@@ -1,0 +1,22 @@
+The header file used in cpp for file management is fstream.h
+It is inheritted from iostream.h only but is more widely used.
+
+It has three components:
+    1. ifstream: class ties a file to the program for input
+    2. ofstream: class ties a file to the pr(ogram for output
+    3. fstream:  class ties a file to the program for both input & output.
+
+FUNCTIONS OF FILE STEAM  CLASSES
+
+1. filebuf     - sets the file buffers to read & write
+               - contains close() & open() member functions
+2. fstreambase - base class for fstream, ifstream & ofstream classes 
+               - contains close() & open() member functions
+3. ifstream    - provides input functions 
+               - functions included are: get(), getline(), read()
+               - seekg() & tellg() from istream class defined inside iostream.h
+4. ofstream    - provides output functions
+               - functions included are: put(), write()
+               - seekp() & tellp() from ostream class defined inside iostream.h 
+5. fstream     - input-output file stream class
+               - inherits all the functions from istream & ostream classes through iostream defined inside iostream.h
