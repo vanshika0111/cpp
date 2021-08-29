@@ -51,7 +51,7 @@ Of course many more programs will be added as you know, *learning never stops*.
 
 It would be glad enough if any of you will to contribute to this repository.
 It's open to contribution. 
-Clone this repository with the provivded url <u>https://github.com/vanshika0111/cpp </u>
+Clone this repository with the provivded url <u> https://github.com/vanshika0111/cpp </u>
 or directly clone the repository with the command: 
 
 ```bash
