@@ -51,9 +51,12 @@ Of course many more programs will be added as you know, *learning never stops*.
 
 It would be glad enough if any of you will to contribute to this repository.
 It's open to contribution. 
-Clone this repository with the provivded url https://github.com/vanshika0111/cpp 
-or directly clone the repository with the command (gh repo clone vanshika0111/cpp).
+Clone this repository with the provivded url <u>https://github.com/vanshika0111/cpp </u>
+or directly clone the repository with the command: 
 
+```bash
+  gh repo clone vanshika0111/cpp
+```
 ---
 ---
 ## <center> **HAPPY CODING :)** </center>
