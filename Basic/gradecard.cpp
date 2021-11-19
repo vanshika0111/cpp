@@ -1,4 +1,4 @@
-/*program that takes marks of three subjects and gives the total marks obtained and percentage secured*/
+// program that takes marks of three subjects and gives the total marks obtained and percentage secured
 
 #include<iostream>
 #include<stdlib.h>
