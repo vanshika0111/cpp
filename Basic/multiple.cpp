@@ -1,3 +1,5 @@
+// program to find multiples of numbers
+
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
