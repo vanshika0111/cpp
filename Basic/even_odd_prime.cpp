@@ -1,5 +1,5 @@
 // program to check if a given number is odd or even or prime.
-// program will continue as long as user wants
+// program will continue as long as user wants due to do-while loop
 
 #include<iostream>
 #include<stdlib.h>
